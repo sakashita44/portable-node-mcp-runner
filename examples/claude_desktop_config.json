@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+            "local-mcp": {
+                "displayName": "Local MCP (example)",
+                "command": "C:\\full\\path\\to\\portable-npx.bat",
+                "args": [
+                    "mcp-remote",
+                    "http://localhost:9999/mcp",
+                    "--allow-http"
+                ],
+                "notes": "Launch a local MCP instance (example uses localhost). Adjust path and ports as needed."
+            },
+            "remote-mcp": {
+                "displayName": "Remote MCP (example)",
+                "command": "C:\\full\\path\\to\\portable-npx.bat",
+                "args": [
+                    "mcp-remote",
+                    "https://<addr>/mcp"
+                ],
+                "notes": "Connect to a remote MCP endpoint (replace <addr> with your host)."
+            }
+    }
+}

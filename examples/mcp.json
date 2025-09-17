@@ -1,0 +1,22 @@
+{
+    "servers": {
+        "your-remote-server": {
+            "command": "C:\\full\\path\\to\\portable-npx.bat",
+            "args": [
+                "mcp-remote",
+                "https://your-remote-mcp-server.com/path"
+            ],
+            "cwd": "C:\\full\\path\\to\\project"
+        },
+        "my-local-server": {
+            "command": "C:\\full\\path\\to\\portable-npx.bat",
+            "args": [
+                "mcp-remote",
+                "http://localhost:9999/mcp",
+                "--allow-http"
+            ],
+            "cwd": "C:\\full\\path\\to\\project"
+        }
+    },
+    "inputs": []
+}
