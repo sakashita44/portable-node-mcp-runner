@@ -7,6 +7,7 @@ Small helper repo to run MCP servers (Notion, Zotero) from a portable Node distr
 ## 概要
 
 このリポジトリは、ポータブルNode.jsディストリビューションを使用してMCPサーバー（Notion、Zoteroなど）を実行するための小さなヘルパーリポジトリです。
+[mcp-remote](https://github.com/geelen/mcp-remote)を利用しています．
 
 ## クイックスタート
 
