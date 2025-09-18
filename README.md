@@ -11,8 +11,9 @@ Small helper repo to run MCP servers (Notion, Zotero) from a portable Node distr
 ## クイックスタート
 
 1. ポータブルNode.jsディストリビューションをこのフォルダーに配置します。（例: `./node-v20.5.1-win-x64`）。このディレクトリには`node.exe`と`npm`等が含まれている必要があります。
-2. `portable-npx.bat`を使用して、外部アプリ（Claude Desktop、VS Code）から確実に`npx`を呼び出します。これにより、`node.exe`が`PATH`に追加され、ローカル`npm`キャッシュ/プレフィックスが設定されます。
-3. Claude Desktopの設定例: `examples/claude_desktop_config.json`
+2. `portable-npx.bat`内の`SET "NODE_DIR=%SCRIPT_DIR%\node-v20.5.1-win-x64"`の部分を、実際のNodeディレクトリ名に合わせて変更します。
+3. `portable-npx.bat`を使用して、外部アプリ（Claude Desktop、VS Code）から確実に`npx`を呼び出します。これにより、`node.exe`が`PATH`に追加され、ローカル`npm`キャッシュ/プレフィックスが設定されます。
+4. Claude Desktopの設定例: `examples/claude_desktop_config.json`
 
 ## ディレクトリ構成例
 

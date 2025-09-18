@@ -8,7 +8,7 @@ REM Remove trailing backslash if present
 IF "%SCRIPT_DIR:~-1%"=="\" SET "SCRIPT_DIR=%SCRIPT_DIR:~0,-1%"
 
 REM Node and npm locations inside portable layout
-SET "NODE_DIR=%SCRIPT_DIR%\node-v22.19.0-win-x64"
+SET "NODE_DIR=%SCRIPT_DIR%\node-v24.8.0-win-x64"
 SET "NPM_BIN=%NODE_DIR%\node_modules\.bin"
 
 REM Export PATH so node and local bins are found
