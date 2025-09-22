@@ -1,7 +1,7 @@
 # portable-node-mcp-runner
 
-batファイルを使う意味はほぼありません．代わりにportable版のnpx.cmdを直接commandに指定すればいいです．
-リポジトリ自体はexampleとしてだけ残しておきます．
+batファイルを使う意味はほぼないかもしれません．代わりにportable版のnpx.cmdを直接commandに指定すればいい可能性があります．
+リポジトリ自体はexampleの記載例としてだけ残しておきます．
 
 Small helper repo to run MCP servers (Notion, Zotero) from a portable Node distribution on Windows。
 
