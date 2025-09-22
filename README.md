@@ -3,7 +3,7 @@
 batファイルを使う意味はほぼないかもしれません．代わりにportable版のnpx.cmdを直接commandに指定すればいい可能性があります．
 リポジトリ自体はexampleの記載例としてだけ残しておきます．
 
-Small helper repo to run MCP servers (Notion, Zotero) from a portable Node distribution on Windows。
+Small helper repo to run [mcp-remote](https://github.com/geelen/mcp-remote) from a portable Node distribution on Windows。
 
 ドキュメント，コードはAIアシスタントにより生成されました。内容の正確性は保証されません。
 
