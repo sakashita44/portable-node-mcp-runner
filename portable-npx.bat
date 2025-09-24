@@ -9,10 +9,9 @@ IF "%SCRIPT_DIR:~-1%"=="\" SET "SCRIPT_DIR=%SCRIPT_DIR:~0,-1%"
 
 REM Node and npm locations inside portable layout
 SET "NODE_DIR=%SCRIPT_DIR%\node-v24.8.0-win-x64"
-SET "NPM_BIN=%NODE_DIR%\node_modules\.bin"
 
 REM Export PATH so node and local bins are found
-SET "PATH=%NODE_DIR%;%NPM_BIN%;%PATH%"
+SET "PATH=%NODE_DIR%;%PATH%"
 
 REM Configure npm cache/prefix to writable locations under portable node
 SET "npm_config_cache=%NODE_DIR%\npm-cache"
